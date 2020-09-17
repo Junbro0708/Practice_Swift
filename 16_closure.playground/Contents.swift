@@ -22,8 +22,8 @@ print(sumResult)
 
 // 클로저는 함수의 일종이기 때문에 클로저형태로 만들어준 변수에 함수를 할당해줄 수 있음
 sum = sumFunction(a:b:)
-//sumResult = sum(3, 5) // 이렇게되면 sumFunction이 호출이 된다.고 하는데 오류
-//print(sumResult)
+sumResult = sum(3, 5) // 이렇게되면 sumFunction이 호출이 된다
+print(sumResult)
 
 let add: (Int, Int) -> Int
 add = { (a: Int, b: Int) -> Int in
