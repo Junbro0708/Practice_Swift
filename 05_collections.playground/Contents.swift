@@ -35,9 +35,11 @@ var anyDictionary: Dictionary<String, Any> = Dictionary<String, Any>() // String
 anyDictionary["JunBro"] = 24
 anyDictionary["Thomas"] = "It's English name of Junbro"
 anyDictionary
+print(anyDictionary)
 
 anyDictionary["Thomas"] = "His name"
 anyDictionary
+print(anyDictionary)
 
 anyDictionary.removeValue(forKey: "Thomas") // 해당 키의 값을 지워줌
 anyDictionary["JunBro"] = nil // nil을 할당해주면서 값을 없앨 수도 있음
