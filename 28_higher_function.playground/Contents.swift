@@ -56,7 +56,7 @@ for i in someNum {
 }
 print(result)
 
-// reduce 매서드 사용
+// reduce 매서드 사용한다.
 let sum: Int = someNum.reduce(0, { // 초기값을 0으로 먼저 지정해주고,
     (first: Int, second: Int) -> Int in // 모두 더해줄 것이다라는 것을 써줌
     return first + second
